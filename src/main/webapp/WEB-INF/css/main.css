@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Raleway');
+
+
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Yanone+Kaffeesatz";
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    /*color: black;*/
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/*a {*/
+    /*color: red;*/
+/*}*/
+
+/*a:hover a:focus {*/
+    /*color: darkred;*/
+/*}*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #04376C;
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #2e6da4;
+    color: whitesmoke;
+}
+
+
+.navbar-inverse .navbar-nav > .active >  a:focus{
+    background-color: #2e6da4;
+    color: whitesmoke;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #2e6da4;
+    color: whitesmoke;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+iframe {
+    width:100%;
+    /*height:100%;*/
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.piacture {
+    width: 8%;
+    height: 8%;
+}
+
+
+
+
+
+
